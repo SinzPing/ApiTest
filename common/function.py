@@ -1,5 +1,6 @@
 import requests
 import time
+from common import tools
 
 
 class ApiRequest:
@@ -24,12 +25,14 @@ class Logger:
     """
     封装输出日志到本地文件中
     """
+
     def __init__(self, path):
         self.path = path
 
-    def wirte(self, api, params, log):
+    def wirte(self, api, params, rep):
         localtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        url = tools.get_url(api)
         with open(self.path, 'a', encoding='utf-8') as f:
-            f.write('请求URL： ' + api + '\n')
+            f.write('请求URL： ' + url + '\n')
             f.write(localtime + '    %s' % params + '\n')
-            f.write(localtime + '    ' + log + '\n\n')
+            f.write(localtime + '    ' + rep + '\n\n')

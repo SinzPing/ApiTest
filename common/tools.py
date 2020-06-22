@@ -16,18 +16,6 @@ def choose_env(environment):
     return config
 
 
-def get_usertoken(account, pwd='E10ADC3949BA59ABBE56E057F20F883E'):
-    """
-    用户登录，获取token
-    """
-    config = choose_env(env.env)
-
-    req = function.ApiRequest('%s/user/login' % config.url)
-    text = req.post_request({'account': account, 'pwd': pwd})
-    json_token = json.loads(text)
-    return json_token['token']
-
-
 def get_url(api):
     """
     获取请求url
@@ -36,6 +24,24 @@ def get_url(api):
     url = config.url + api
 
     return url
+
+
+def request(api, params):
+    url = get_url(api)
+    req = function.ApiRequest(url)
+    rep = req.post_request(params)
+    return rep
+
+
+def get_usertoken(account, pwd='E10ADC3949BA59ABBE56E057F20F883E'):
+    """
+    用户登录，获取token
+    """
+
+    req = function.ApiRequest(get_url('/user/login'))
+    text = req.post_request({'account': account, 'pwd': pwd})
+    json_token = json.loads(text)
+    return json_token['token']
 
 
 def clean_log(path):
@@ -49,4 +55,6 @@ def clean_log(path):
 
 
 if __name__ == '__main__':
-    clean_log(r'D:/ApiTest/log/part_insert.log')
+    clean_log(r'D:/ApiTest/log/part_search.log')
+    # print(get_usertoken('fdadmin'))
+    # print(request('/user/login', {'account': 'fdadmin', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}))

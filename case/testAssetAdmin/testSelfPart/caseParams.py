@@ -7,7 +7,7 @@ author：郑平
 def insert():
     params = [
         {
-            'name': '1',
+            'name': 'api_test',
             'state': 0,
             'parentId': ''
         },
@@ -32,7 +32,8 @@ def delete():
 def search():
     params = [
         {
-
+            'page': 1,
+            'size': 20
         }
     ]
     return params

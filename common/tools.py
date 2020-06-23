@@ -27,6 +27,9 @@ def get_url(api):
 
 
 def request(api, params):
+    """
+    封装接口请求
+    """
     url = get_url(api)
     req = function.ApiRequest(url)
     rep = req.post_request(params)

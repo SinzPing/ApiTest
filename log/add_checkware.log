@@ -1,0 +1,72 @@
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 15:27:08    {'assetstype': 4, 'classId': 32, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'schoolid': 1, 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'time': '2020-06-20', 'userType': 1, 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322'}
+2020-06-28 15:27:08    {"status":10004,"total":0,"msg":"参数效验不通过","data":{"sourcetype":"资产来源类型不能为空"},"success":false}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 15:38:55    {'assetstype': 4, 'classId': 32, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'schoolid': 1, 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'time': '2020-06-20', 'userType': 1, 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 3}
+2020-06-28 15:38:55    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 15:46:17    {'assetstype': 4, 'classId': 32, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'schoolid': 1, 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'time': '2020-06-20', 'userType': 1, 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 3}
+2020-06-28 15:46:17    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:00:24    {'assetstype': 4, 'ctype': 1, 'name': 'zp测试验收入库21332', 'pnum': 0, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'storetype': 2, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 3}
+2020-06-28 16:00:24    {"status":10004,"total":0,"msg":"参数效验不通过","data":{"state":"验收状态不能为空"},"success":false}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:00:39    {'assetstype': 4, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 3}
+2020-06-28 16:00:39    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:14:55    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 0}
+2020-06-28 16:14:55    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:14:55    {'assetstype': 2, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 2, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 1}
+2020-06-28 16:14:55    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:14:55    {'assetstype': 3, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 1, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'state': 0, 'storetype': 2, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 2}
+2020-06-28 16:14:55    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:14:55    {'assetstype': 4, 'ctype': 1, 'name': 'zp测试验收入库', 'pnum': 0, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-917370683743488361', 'remark': '这是zp的备注信息', 'state': 0, 'storetype': 0, 'suggest': '这是zp的验证意见', 'warehouseid': -2594811805264231206, 'wareno': '917370683743488322', 'sourcetype': 3}
+2020-06-28 16:14:55    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:28:12    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5534420828292691492', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488322', 'sourcetype': 0}
+2020-06-28 16:28:12    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:45:40    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549077', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488322', 'sourcetype': 0}
+2020-06-28 16:45:40    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 16:47:06    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549077', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488322', 'sourcetype': 0}
+2020-06-28 16:47:06    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 20:14:26    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549077', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488322', 'sourcetype': 0}
+2020-06-28 20:14:26    {"status":10007,"total":0,"msg":"已存在过重复的入库单，或者采购单","data":null,"success":false}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 20:16:07    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549077', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488323', 'sourcetype': 0}
+2020-06-28 20:16:07    {"status":10007,"total":0,"msg":"已存在过重复的入库单，或者采购单","data":null,"success":false}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-28 20:16:19    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549077', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488320', 'sourcetype': 0}
+2020-06-28 20:16:19    {"status":10007,"total":0,"msg":"已存在过重复的入库单，或者采购单","data":null,"success":false}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-29 09:41:40    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549078', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488326', 'sourcetype': 0}
+2020-06-29 09:41:40    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-29 11:50:58    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549079', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488328', 'sourcetype': 0}
+2020-06-29 11:50:58    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-29 11:51:08    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549080', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488323', 'sourcetype': 0}
+2020-06-29 11:51:08    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
+

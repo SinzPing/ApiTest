@@ -70,3 +70,7 @@
 2020-06-29 11:51:08    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549080', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488323', 'sourcetype': 0}
 2020-06-29 11:51:08    {"status":200,"total":0,"msg":"SUCCESS","data":null,"success":true}
 
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-checkin/add
+2020-06-30 12:00:05    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-5527505149849549080', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488323', 'sourcetype': 0}
+2020-06-30 12:00:05    {"status":10007,"total":0,"msg":"已存在过重复的入库单，或者采购单","data":null,"success":false}
+

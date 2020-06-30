@@ -26,7 +26,7 @@ class PartInsert(unittest.TestCase):
     def test_case(self):
         for i in insert():
             api = '/educiotlogistics/customcategory'
-            rep = tools.request(api, json.dumps(i))
+            rep = tools.post_request(api, json.dumps(i))
             print(rep)
             log = function.Logger(config.log_path + 'part_insert.log')
             log.wirte(api, i, rep)

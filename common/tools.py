@@ -26,13 +26,23 @@ def get_url(api):
     return url
 
 
-def request(api, params):
+def post_request(api, params):
     """
-    封装接口请求
+    封装post接口请求
     """
     url = get_url(api)
     req = function.ApiRequest(url)
     rep = req.post_request(params)
+    return rep
+
+
+def get_request(api, params):
+    """
+    封装get接口请求
+    """
+    url = get_url(api)
+    req = function.ApiRequest(url)
+    rep = req.get_request(params)
     return rep
 
 

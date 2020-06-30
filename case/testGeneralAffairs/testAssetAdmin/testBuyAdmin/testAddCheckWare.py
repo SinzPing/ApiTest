@@ -26,7 +26,7 @@ class AddCheckWare(unittest.TestCase):
     def test_case(self):
         for i in addcheckware():
             api = '/educiotlogistics/purchasing-checkin/add'
-            rep = tools.request(api, json.dumps(i))
+            rep = tools.post_request(api, json.dumps(i))
             print(rep)
             log = function.Logger(config.log_path + 'add_checkware.log')
             log.wirte(api, i, rep)

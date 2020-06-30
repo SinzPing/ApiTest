@@ -23,7 +23,7 @@ class GetAssetApplyId(unittest.TestCase):
 
     def test_case(self):
         api = '/educiotlogistics/purchasing-entry/getId'
-        rep = tools.request(api, '')
+        rep = tools.get_request(api, '')
         print(rep)
         log = function.Logger(config.log_path + 'get_assetapplyid.log')
         log.wirte(api, '', rep)

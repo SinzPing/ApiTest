@@ -14,3 +14,7 @@
 2020-06-28 15:48:50    
 2020-06-28 15:48:50    {"status":200,"total":0,"msg":"SUCCESS","data":-5290649300989294658,"success":true}
 
+请求URL： http://192.168.1.31:32090/educiotlogistics/purchasing-entry/getId
+2020-06-30 11:59:59    
+2020-06-30 11:59:59    {"status":200,"total":0,"msg":"SUCCESS","data":5371326503386891485,"success":true}
+

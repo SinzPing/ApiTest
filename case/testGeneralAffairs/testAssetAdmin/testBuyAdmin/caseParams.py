@@ -173,7 +173,7 @@ def addcheckware():
             "position": "这是zp的临时存放地址",
             "purchaseno": "1324465464646",
             "quality": 2,
-            "relationid": "-5527505149849549080",
+            "relationid": "-3365415448801949075",
             "remark": "这是zp的备注信息",
             "state": 1,
             "storetype": 1,

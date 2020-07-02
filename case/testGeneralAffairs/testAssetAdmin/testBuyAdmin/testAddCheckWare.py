@@ -4,7 +4,7 @@ author：郑平
 """
 
 from common import function, tools
-from .caseParams import addcheckware
+from case.testGeneralAffairs.testAssetAdmin.testBuyAdmin.caseParams import addcheckware
 import env
 import json
 import unittest

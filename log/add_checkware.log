@@ -1,0 +1,4 @@
+请求URL： http://educiot.org:2070/educiotlogistics/purchasing-checkin/add
+2020-07-02 17:17:22    {'assetstype': 1, 'ctype': 0, 'name': 'zp测试验收入库-999', 'pnum': 1, 'position': '这是zp的临时存放地址', 'purchaseno': '1324465464646', 'quality': 2, 'relationid': '-3365415448801949075', 'remark': '这是zp的备注信息', 'state': 1, 'storetype': 1, 'suggest': '这是zp的验证意见', 'warehouseid': -8855096354382919000, 'wareno': '917370683743488323', 'sourcetype': 0}
+2020-07-02 17:17:22    {"status":10007,"total":0,"msg":"已存在过重复的入库单，或者采购单","data":null,"success":false}
+

@@ -7,7 +7,8 @@ class Runner:
     用例执行器
     """
 
-    suites = tools.get_suites('case.testGeneralAffairs.testAssetAdmin', 'test*.py')
+    suites = tools.get_suites('case', 'test*.py')  # 路径（case.path，多个文件夹）和文件，以test开头的所有文件
+
     # suite2 = tools.get_suites('path', 'keyword')
     # allsuite = unittest.TestSuite((suites, suite2))  # 如果有很多路径下有测试用例，就用此方法
 

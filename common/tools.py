@@ -11,11 +11,11 @@ def choose_env(environment):
     """
     选择运行环境
     """
-    if environment == 'dev':
+    if environment == 'dev':  # 选择开发环境
         from config.dev import config
-    elif environment == 'release':
+    elif environment == 'release':  # 选择线上环境
         from config.release import config
-    else:
+    else:  # 选择测试环境，如果有其他环境可以自行添加
         from config.test import config
     return config
 
@@ -50,15 +50,15 @@ def get_request(api, params):
     return rep
 
 
-def get_usertoken(account, pwd='E10ADC3949BA59ABBE56E057F20F883E'):
+def get_usertoken(account, pwd='默认的密码'):
     """
-    用户登录，获取token
+    用户登录，获取token/cookie
     """
-    req = function.ApiRequest(get_url('/user/login'))
-    req.headers.update({'Content-Type': 'application/x-www-form-urlencoded'})
+    req = function.ApiRequest(get_url('登录接口名（或者说是接口路径：qqq/www/eee）'))  #
+    req.headers.update({'Content-Type': 'application/x-www-form-urlencoded'})  # 如果登录接口是表单形式的入参就用这个，如果是body入参就注释掉
     text = req.post_request({'account': account, 'pwd': pwd})
     json_token = json.loads(text)
-    return json_token['token']
+    return json_token['token']  # 一般登录后会返回一个token，或者cookie，不同公司有所不同
 
 
 def get_suites(path, keyword):
@@ -86,7 +86,7 @@ def exec_time(time, cmd):
     while True:
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print('现在的时间是： ' + now)
-        sleep(1)
+        sleep(1)  # 每一秒检查一次时间有没有到，可以自行修改
         if time in now:
             print('============================开始执行脚本============================')
             os.system(cmd)
@@ -96,6 +96,4 @@ def exec_time(time, cmd):
 
 
 if __name__ == '__main__':
-    clean_log(r'D:/ApiTest/log/get_assetapplyid.log')
-    # print(get_usertoken('fdadmin'))
-    # print(request('/user/login', {'account': 'fdadmin', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E'}))
+    clean_log(r'D:/ApiTest/log/demo.log')

@@ -36,3 +36,5 @@ class Logger:
             f.write('请求URL： ' + url + '\n')
             f.write(localtime + '    %s' % params + '\n')
             f.write(localtime + '    ' + rep + '\n\n')
+
+

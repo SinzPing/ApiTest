@@ -1,6 +1,7 @@
 import requests
 import time
 from common import tools
+from case import insert_data
 
 
 class ApiRequest:
@@ -17,7 +18,7 @@ class ApiRequest:
         return req.text
 
     def get_request(self, params):
-        req = requests.get(self.path, params=params, timeout=5)
+        req = requests.get(self.path, params=params, timeout=5, headers=self.headers)
         return req.text
 
 
@@ -36,5 +37,3 @@ class Logger:
             f.write('请求URL： ' + url + '\n')
             f.write(localtime + '    %s' % params + '\n')
             f.write(localtime + '    ' + rep + '\n\n')
-
-

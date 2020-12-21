@@ -50,15 +50,15 @@ def get_request(api, params):
     return rep
 
 
-def get_usertoken(account, pwd='默认的密码'):
+def get_usertoken(account, pwd='ZTEwYWRjMzk0OWJhNTlhYmJlNTZlMDU3ZjIwZjg4M2U='):
     """
     用户登录，获取token/cookie
     """
-    req = function.ApiRequest(get_url('登录接口名（或者说是接口路径：qqq/www/eee）'))  #
+    req = function.ApiRequest(get_url('v1/web/eduaccount/sys/login'))  #
     req.headers.update({'Content-Type': 'application/x-www-form-urlencoded'})  # 如果登录接口是表单形式的入参就用这个，如果是body入参就注释掉
-    text = req.post_request({'account': account, 'pwd': pwd})
+    text = req.post_request({'domainName': 'zp.com', 'password': pwd, 'username': account})
     json_token = json.loads(text)
-    return json_token['token']  # 一般登录后会返回一个token，或者cookie，不同公司有所不同
+    return json_token['data']['token']  # 一般登录后会返回一个token，或者cookie，不同公司有所不同
 
 
 def get_suites(path, keyword):
@@ -96,4 +96,7 @@ def exec_time(time, cmd):
 
 
 if __name__ == '__main__':
-    clean_log(r'D:/ApiTest/log/demo.log')
+    # token = get_usertoken('13211111111')
+    # print(token)
+    clean_log(r'C:/Users/88000129/ApiTest/log/insert_class.log')
+    # clean_log(r'C:/Users/88000129/ApiTest/log/normal.log')

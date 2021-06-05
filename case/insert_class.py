@@ -25,7 +25,8 @@ class Demo(unittest.TestCase):
         token = tools.get_usertoken(config.name)  # 选择对应登录的账号以获取token/cookie
         req = function.ApiRequest
         # req.headers.update({'x-access-token': token, "Content-Type": "application/x-www-form-urlencoded"})  # post普通的表单入参（填充header，表示自己登录了）
-        req.headers.update({'x-access-token': token, 'Content-Type': 'application/json; charset=utf-8'})  # post的body入参（填充header，表示自己登录了）
+        req.headers.update({'x-access-token': token,
+                            'Content-Type': 'application/json; charset=utf-8'})  # post的body入参（填充header，表示自己登录了）
 
     def test_case(self):
         """
@@ -46,7 +47,3 @@ class Demo(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-
-

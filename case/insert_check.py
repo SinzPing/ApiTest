@@ -25,7 +25,8 @@ class Demo(unittest.TestCase):
         token = tools.get_usertoken(config.name)  # 选择对应登录的账号以获取token/cookie
         req = function.ApiRequest
         # req.headers.update({'x-access-token': token})  # post普通的表单入参（填充header，表示自己登录了）
-        req.headers.update({'x-access-token': token, 'Content-Type': 'application/json; charset=utf-8'})  # post的body入参（填充header，表示自己登录了）
+        req.headers.update({'x-access-token': token,
+                            'Content-Type': 'application/json; charset=utf-8'})  # post的body入参（填充header，表示自己登录了）
 
     def test_case(self):
         """
@@ -38,6 +39,7 @@ class Demo(unittest.TestCase):
             print(rep)
             log = function.Logger(config.log_path + 'abnormal.log')  # 需要写入log的文件名
             log.wirte(api, i, rep)
+
     #
     # def test_case(self):
     #     """
@@ -57,6 +59,3 @@ class Demo(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-

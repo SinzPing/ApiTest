@@ -2,14 +2,15 @@ import get_robot_sign
 import requests
 import json
 import time
+
 sign = get_robot_sign.get_sign()
 
 
 def robot_test():
     url = 'https://oapi.dingtalk.com/robot/send?access_token=a34efbd9b4f6c4e26a9a1a428bfead7338a53126fae4d10203af7ac2bbaea122%s' % sign
     headers = {
-            "Content-Type": "application/json",
-            "Charset": "UTF-8"
+        "Content-Type": "application/json",
+        "Charset": "UTF-8"
     }
 
     localtime = time.strftime('%H:%M', time.localtime(time.time()))
@@ -43,5 +44,3 @@ def robot_test():
 
 if __name__ == '__main__':
     robot_test()
-
-

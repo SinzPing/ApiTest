@@ -5,6 +5,7 @@ author：郑平
 
 import random
 
+
 #  case里的test方法会遍历列表的参数，列表中有几个字典就跑几次
 
 

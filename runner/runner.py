@@ -21,7 +21,3 @@ class Runner:
 
 if __name__ == '__main__':
     Runner().text_runner()
-
-
-
-
